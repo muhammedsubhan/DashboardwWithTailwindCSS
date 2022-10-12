@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box-shadow-l {
+  box-shadow: 1px 0px 0px #ebebeb;
+}
+
+aside {
+  height: 100vh;
+  width: 200px;
+}
+
+i {
+  color: rgba(70, 71, 84, 1);
+}
+
+small {
+  font-size: 0.75rem;
+  font-weight: 500;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard with TailWindCSS</title>
+  </head>
+  <body class="font-Poppins">
+    <div class="container">
+      <!-- sidebar -->
+      <aside class="box-shadow-l">
+        <!-- top -->
+        <div class="m-4 p-2">
+          <!-- logo -->
+          <div class="flex items-center justify-around">
+            <img src="./img/logo 2.png" class="relative top-2 left-1" />
+            <img src="./img/logo 3.png" class="relative -left-1" />
+          </div>
+          <small
+            class="ml-14 relative bottom-2 text-gray-400 font-medium text-xs"
+            >admin panel</small
+          >
+        </div>
+        <!-- Sidebar Div -->
+        <div class="flex items-center justify-center ml-3">
+          <div class="i">
+            <div class="hover-effect">
+              <a href="#" class="flex items-center mb-3 py-2">
+                <i class="fas fa-regular fa-house mr-5 py-3"></i>
+                <h3 class="text-gray-400 font-medium text-sm">Home</h3>
+              </a>
+
+              <a href="#" class="flex items-center mb-3 py-2">
+                <i class="fas fa-solid fa-user-group mr-5 py-3"></i>
+                <h3 class="text-gray-400 font-medium text-sm">Database</h3>
+              </a>
+
+              <a href="#" class="flex items-center mb-3 py-2">
+                <i class="fas fa-solid fa-bell-concierge mr-5 py-3"></i>
+                <h3 class="text-gray-400 font-medium text-sm">Reservation</h3>
+              </a>
+
+              <a href="#" class="flex items-center mb-3 py-2">
+                <i class="fas fa-solid fa-calendar-check mr-5 py-3"></i>
+                <h3 class="text-gray-400 font-medium text-sm">Projects</h3>
+              </a>
+
+              <a href="#" class="flex items-center mb-4 py-2">
+                <i class="fas fa-solid fa-receipt mr-5 py-3"></i>
+                <h3 class="text-gray-400 font-medium text-sm">Accounting</h3>
+              </a>
+
+              <a href="#" class="flex items-center mb-4 py-2">
+                <i class="fas fa-solid fa-chart-pie mr-5 py-3"></i>
+                <h3 class="text-gray-400 font-medium text-sm">Stats</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-14 ml-7">
+          <a href="#" class="flex items-center p-1">
+            <img src="./img/my profile.png" class="mr-" />
+            <h4 class="text-gray-400 font-medium text-sm ml-2">My Profile</h4>
+            <i class="fa-sharp fa-solid fa-angle-right ml-5 text-gray-400"></i>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
