@@ -575,8 +575,8 @@ video {
   margin: 1rem;
 }
 
-.ml-14 {
-  margin-left: 3.5rem;
+.ml-16 {
+  margin-left: 4rem;
 }
 
 .ml-3 {
@@ -595,12 +595,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
-.ml-7 {
-  margin-left: 1.75rem;
+.ml-9 {
+  margin-left: 2.25rem;
 }
 
 .ml-2 {
@@ -625,10 +625,6 @@ video {
 
 .justify-around {
   justify-content: space-around;
-}
-
-.border-4 {
-  border-width: 4px;
 }
 
 .p-2 {
@@ -699,23 +695,27 @@ aside {
 .i i {
   color: #464754;
   font-weight: 800;
-  font-size: 20px;
-  margin-left: -7px;
+  font-size: 18px;
 }
 
-.hover-effect h3:hover,
-.i .hover-effect i:hover {
-  color: #000000;
+.i {
+  margin-top: -10px;
 }
 
-.i .hover-effect a:hover {
-  margin-left: 15px;
-}
-
-.i .hover-effect h3 {
+.hover-effect a {
+  padding: 10px;
   transition: all 300ms ease;
 }
 
-.i .hover-effect a {
+.hover-effect a:hover i,
+.hover-effect a:hover h3 {
+  color: #000000;
+}
+
+.i .hover-effect a:hover i {
+  margin-left: 0.7rem;
+}
+
+.hover-effect a i {
   transition: all 300ms ease;
 }
