@@ -5,21 +5,18 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 body {
-  width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
 }
 
 .box-shadow-l {
   box-shadow: 1px 0px 0px #ebebeb;
 }
 
-.container {
+.containerr {
   display: grid;
-  grid-template-columns: 200px;
+  grid-template-columns: 210px;
   grid-template-rows: 80px 100vh;
 }
 
