@@ -16,8 +16,8 @@ body {
 
 .containerr {
   display: grid;
-  grid-template-columns: 210px;
-  grid-template-rows: 80px 100vh;
+  grid-template-columns: 200px;
+  grid-template-rows: 70px 100vh;
 }
 
 aside {
@@ -51,4 +51,24 @@ aside {
 
 .hover-effect a i {
   transition: all 300ms ease;
+}
+
+.top {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+main {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.icolor {
+  color: #464754;
+}
+.icolor a {
+  transition: all 300ms ease-in-out;
+}
+.icolor a:hover {
+  color: black;
 }
