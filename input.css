@@ -72,3 +72,30 @@ main {
 .icolor a:hover {
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .i .hover-effect a h3 {
+    display: none;
+  }
+  .hide a h4,
+  .hide a i {
+    display: none;
+  }
+
+  .hide {
+    margin-left: 23px;
+  }
+
+  .imghide img:nth-child(2),
+  .hideit small {
+    display: none;
+  }
+
+  .hideit img:nth-child(1) {
+    margin-right: 18px;
+  }
+
+  .containerr {
+    grid-template-columns: 100px;
+  }
+}

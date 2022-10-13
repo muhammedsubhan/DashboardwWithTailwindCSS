@@ -641,16 +641,6 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -790,4 +780,32 @@ main {
 
 .icolor a:hover {
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .i .hover-effect a h3 {
+    display: none;
+  }
+
+  .hide a h4,
+  .hide a i {
+    display: none;
+  }
+
+  .hide {
+    margin-left: 23px;
+  }
+
+  .imghide img:nth-child(2),
+  .hideit small {
+    display: none;
+  }
+
+  .hideit img:nth-child(1) {
+    margin-right: 18px;
+  }
+
+  .containerr {
+    grid-template-columns: 100px;
+  }
 }
