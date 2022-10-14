@@ -101,3 +101,41 @@ main {
     grid-template-columns: 100px;
   }
 }
+
+@media screen and (max-width: 786px) {
+  aside {
+    position: fixed;
+    left: -100%;
+    background: white;
+    width: 14rem;
+    z-index: 3;
+    box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
+    height: 100vh;
+    padding-right: 1.8rem;
+
+    animation: showMenu 400ms ease forwards;
+    /* display */
+    display: none;
+  }
+
+  @keyframes showMenu {
+    to {
+      left: 0;
+    }
+  }
+
+  .containerr {
+    grid-template-columns: 0px;
+  }
+
+  .i .hover-effect a h3,
+  .imghide img:nth-child(2),
+  .hideit small,
+  .hide a h4,
+  .hide a i {
+    display: inline-block;
+  }
+  .menu-button {
+    display: inline-block;
+  }
+}

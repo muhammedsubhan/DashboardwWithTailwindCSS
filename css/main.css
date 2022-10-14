@@ -551,6 +551,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -571,8 +575,16 @@ video {
   bottom: 0.5rem;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .m-4 {
   margin: 1rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
 }
 
 .m-8 {
@@ -625,6 +637,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .items-center {
@@ -702,14 +718,19 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-lg {
@@ -845,5 +866,56 @@ main {
 
   .containerr {
     grid-template-columns: 100px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  aside {
+    position: fixed;
+    left: -100%;
+    background: white;
+    width: 14rem;
+    z-index: 3;
+    box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18);
+    height: 100vh;
+    padding-right: 1.8rem;
+    -webkit-animation: showMenu 400ms ease forwards;
+            animation: showMenu 400ms ease forwards;
+    /* display */
+    display: none;
+  }
+
+  @-webkit-keyframes showMenu {
+    to {
+      left: 0;
+    }
+  }
+
+  @keyframes showMenu {
+    to {
+      left: 0;
+    }
+  }
+
+  .containerr {
+    grid-template-columns: 0px;
+  }
+
+  .i .hover-effect a h3,
+  .imghide img:nth-child(2),
+  .hideit small,
+  .hide a h4,
+  .hide a i {
+    display: inline-block;
+  }
+
+  .menu-button {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
   }
 }
