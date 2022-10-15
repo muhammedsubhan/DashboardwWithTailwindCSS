@@ -953,7 +953,7 @@ main {
   width: 350px;
 }
 
-.talents .card4 .fol {
+.talents .card4 .fol4 {
   margin-left: 92px;
 }
 
@@ -1145,6 +1145,39 @@ main {
 
   .icolor {
     display: none;
+  }
+
+  .cards .talents .card1 span,
+  .cards .talents .card2 span,
+  .cards .talents .card3 span,
+  .cards .talents .card4 span,
+  .cards .talents .card5 span {
+    display: none;
+  }
+
+  .cards .talents .card2 .fol2 {
+    position: relative;
+    left: 0px;
+  }
+
+  .cards .talents .card3 .fol3 {
+    position: relative;
+    left: -4px;
+  }
+
+  .cards .talents .card4 .fol4 {
+    position: relative;
+    right: -35px;
+  }
+
+  .cards .talents .card5 .fol5 {
+    position: relative;
+    left: 13px;
+  }
+
+  .cards .talents .card1 .cross-div {
+    position: relative;
+    left: 10px;
   }
 }
 
