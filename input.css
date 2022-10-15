@@ -17,7 +17,7 @@ body {
 .containerr {
   display: grid;
   grid-template-columns: 200px;
-  grid-template-rows: 70px 100vh;
+  grid-template-rows: 70px 100%;
 }
 
 aside {
@@ -73,6 +73,15 @@ main {
 }
 .icolor a:hover {
   color: black;
+}
+
+/* cards */
+.cards {
+  width: 350px;
+}
+
+.talents .card4 .fol {
+  margin-left: 92px;
 }
 
 @media screen and (max-width: 1200px) {
