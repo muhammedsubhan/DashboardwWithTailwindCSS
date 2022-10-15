@@ -184,7 +184,6 @@ main {
   .asset .Events {
     margin-top: 18px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -192,6 +191,66 @@ main {
     display: none;
   }
   .asset .Events {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .assets .Talents {
+    width: 300px;
+  }
+
+  .assets .Talents .tal {
+    margin-left: 120px;
+  }
+
+  .assets .Talents span i {
+    margin-left: 25px;
+  }
+
+  .assets .Brands {
+    width: 300px;
+    margin-top: 18px;
+  }
+
+  .assets .Brands .bra {
+    margin-left: 120px;
+  }
+
+  .assets .Brands span i {
+    margin-left: 25px;
+  }
+
+  .asset .Reservations {
+    width: 300px;
+  }
+
+  .asset .Reservations .res {
+    margin-left: 120px;
+  }
+
+  .asset .Reservations span i {
+    margin-left: 25px;
+  }
+
+  .asset .Actions {
+    width: 300px;
+    margin-top: 18px;
+  }
+  .asset .Actions .act {
+    margin-left: 120px;
+  }
+  .asset .Actions span i {
+    margin-left: 25px;
+  }
+
+  /* nav Section  */
+
+  .navhide small {
+    display: none;
+  }
+
+  .icolor {
     display: none;
   }
 }
