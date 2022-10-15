@@ -635,12 +635,36 @@ video {
   margin-left: 1.25rem;
 }
 
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -669,6 +693,10 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -681,6 +709,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -697,6 +730,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .py-2 {
@@ -867,6 +904,34 @@ main {
   .containerr {
     grid-template-columns: 100px;
   }
+
+  .assets .TalentAgencies {
+    display: none;
+  }
+
+  .asset .MediaContents {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .assets .TalentAgencies {
+    margin-top: 18px;
+  }
+
+  .asset .MediaContents {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .assets .Agencies {
+    margin-top: 18px;
+  }
+
+  .asset .Jobs {
+    margin-top: 18px;
+  }
 }
 
 @media screen and (max-width: 786px) {
@@ -911,6 +976,34 @@ main {
 
   .menu-button {
     display: inline-block;
+  }
+
+  .assets .Agencies {
+    display: none;
+  }
+
+  .asset .Jobs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  .assets .LocalBusiness {
+    margin-top: 18px;
+  }
+
+  .asset .Events {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .assets .LocalBusiness {
+    display: none;
+  }
+
+  .asset .Events {
+    display: none;
   }
 }
 

@@ -100,6 +100,34 @@ main {
   .containerr {
     grid-template-columns: 100px;
   }
+
+  .assets .TalentAgencies {
+    display: none;
+  }
+
+  .asset .MediaContents {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .assets .TalentAgencies {
+    margin-top: 18px;
+  }
+
+  .asset .MediaContents {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .assets .Agencies {
+    margin-top: 18px;
+  }
+
+  .asset .Jobs {
+    margin-top: 18px;
+  }
 }
 
 @media screen and (max-width: 786px) {
@@ -137,5 +165,33 @@ main {
   }
   .menu-button {
     display: inline-block;
+  }
+
+  .assets .Agencies {
+    display: none;
+  }
+
+  .asset .Jobs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  .assets .LocalBusiness {
+    margin-top: 18px;
+  }
+
+  .asset .Events {
+    margin-top: 18px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .assets .LocalBusiness {
+    display: none;
+  }
+  .asset .Events {
+    display: none;
   }
 }
