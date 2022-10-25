@@ -296,4 +296,17 @@ main {
     position: relative;
     left: 10px;
   }
+
+  .cards .talents .card2 .folc {
+    position: relative;
+    left: 41px;
+  }
+
+  .cardWrapper .firstcard {
+    margin-bottom: -10px;
+  }
+
+  .cardWrapper .secondCard {
+    margin-bottom: -40px;
+  }
 }
